@@ -9,9 +9,6 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      id_transaksi: {
-        type: Sequelize.INTEGER
-      },
       tgl_transaksi: {
         type: Sequelize.DATE
       },

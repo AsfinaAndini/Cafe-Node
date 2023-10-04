@@ -14,7 +14,6 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   user.init({
-    id_user: DataTypes.INTEGER,
     nama_user: DataTypes.STRING,
     role: DataTypes.ENUM('admin','kasir','manajer'),
     username: DataTypes.STRING,

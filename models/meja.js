@@ -14,7 +14,6 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   meja.init({
-    id_meja: DataTypes.INTEGER,
     nomor_meja: DataTypes.STRING
   }, {
     sequelize,

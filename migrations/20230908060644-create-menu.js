@@ -9,9 +9,6 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      id_menu: {
-        type: Sequelize.INTEGER
-      },
       nama_menu: {
         type: Sequelize.STRING
       },

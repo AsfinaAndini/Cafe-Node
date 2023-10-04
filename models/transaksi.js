@@ -14,7 +14,6 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   transaksi.init({
-    id_transaksi: DataTypes.INTEGER,
     tgl_transaksi: DataTypes.DATE,
     id_user: DataTypes.INTEGER,
     id_meja: DataTypes.INTEGER,

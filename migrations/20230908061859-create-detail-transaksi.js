@@ -9,9 +9,6 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      id_detail_transaksi: {
-        type: Sequelize.INTEGER
-      },
       id_transaksi: {
         type: Sequelize.INTEGER,
         allowNull: false,
